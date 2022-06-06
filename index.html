@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+                 <a href="#" class="navbar-brand d-flex flex-wrap">
+                    <img src="images/logo.png" alt="Brand-logo" class="logo img-fluid">
+                        <h1 class="fs-6 ps-3 text-white align-self-end">Weather App</h1>
+                </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon fa-solid fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item ">
+                        <a class="nav-link active fw-bold " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Live Cameras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+                <div class="navbar-social ps-lg-5 text-center" style="line-height: 25px;">
+
+                    <a href="#" title="Facebook"><i class="fab fa-facebook-f "></i></a>
+                    <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="landing">
+        <div class="container">
+            <input id="search" class="form-control my-5 w-75 mx-auto rounded-pill p-3"
+                placeholder="Find for a country ..">
+        </div>
+    </div>
+
+
+    <div class="forecast ">
+        <div class="container">
+            <div id="forecast" class="forecast-container row align-content-center justify-content-between ">
+
+
+            </div>
+        </div>
+    </div>
+
+<footer>
+      <div class="footer-copyright p-4 text-center">
+        <div class="container">
+
+          <div class="row">
+
+            <div class="col-md-6 py-2">
+
+              <!-- Social links -->
+              <div class="footer-social">
+                <a href="#" title="Facebook"><i class="fab fa-facebook-f fa-fw"></i></a>
+                <a href="#" title="Twitter"><i class="fab fa-twitter fa-fw"></i></a>
+                <a href="#" title="Instagram"><i class="fab fa-instagram fa-fw"></i></a>
+             </div>
+            </div>
+            <div class="col-md-6 py-2">
+
+              <!-- Text -->
+              <p class="copyright mb-0 text-white fs-6">
+                ©<a class="ps-1" href="#" target="_blank">Route</a> 2022. All rights reserved
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </footer>
+
+    <script src="https://kit.fontawesome.com/b1c9c7fb83.js" crossorigin="anonymous"></script>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/mine.js"></script>
+</body>
+
+</html>
